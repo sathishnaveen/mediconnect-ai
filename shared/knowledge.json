@@ -1,0 +1,141 @@
+{
+  "clinic": {
+    "name": "MediConnect AI",
+    "tagline": "Smart healthcare, simplified.",
+    "phone": "+1 (555) 010-4200",
+    "email": "care@mediconnect-ai.demo",
+    "address": "100 Wellness Avenue, Suite 200, Springfield (demo address)",
+    "hours": [
+      { "days": "Monday - Friday", "time": "8:00 AM - 7:00 PM" },
+      { "days": "Saturday", "time": "9:00 AM - 3:00 PM" },
+      { "days": "Sunday", "time": "Closed" }
+    ],
+    "services": [
+      "General health check-ups",
+      "Cardiology consultations",
+      "Pediatric care",
+      "Orthopedics and joint care",
+      "Dermatology (skin, hair and nails)",
+      "Neurology consultations",
+      "Women's health (gynecology)",
+      "Telemedicine video consultations",
+      "Laboratory tests and diagnostics",
+      "Physiotherapy and rehabilitation"
+    ],
+    "specialties": [
+      "Cardiology",
+      "Dermatology",
+      "Pediatrics",
+      "Orthopedics",
+      "Neurology",
+      "General Medicine",
+      "Gynecology",
+      "Physiotherapy"
+    ]
+  },
+  "bookingSteps": [
+    "Open the Book Appointment page from the top navigation.",
+    "Choose a doctor from the list (use Find a Doctor if you want to search first).",
+    "Pick a date - the clinic is closed on Sundays, so only open days are shown.",
+    "Pick an available time slot (slots already taken are greyed out).",
+    "Enter your name and email address, then review the summary.",
+    "Press Confirm Appointment and save the confirmation reference number."
+  ],
+  "emergency": "If this is a medical emergency, call your local emergency number right away (911 in the United States) or go to the nearest emergency department. Do not wait for a chat reply.",
+  "disclaimer": "MediConnect AI provides general health information only. It cannot diagnose a condition, prescribe medication or replace a qualified healthcare professional. Book an appointment for personal medical advice.",
+  "note": "MediConnect AI is a demo project. Clinic details, doctors and appointments are sample data.",
+  "greeting": "Hello! I am the MediConnect AI clinic assistant. I can answer questions about our clinic, services, doctor specialties and how to book an appointment. I cannot diagnose conditions or prescribe medication. What would you like to know?",
+  "fallback": "I could not match that question to my clinic knowledge base. I can help with: clinic services, doctor specialties, opening hours, location, payments, telemedicine and the steps to book an appointment. For anything medical, please book an appointment with one of our doctors - and in an emergency call 911.",
+  "faqs": [
+    {
+      "id": "services",
+      "question": "What services does the clinic offer?",
+      "keywords": ["service", "services", "offer", "offers", "provide", "treatment", "facilities", "facility", "clinic"],
+      "answer": "MediConnect AI offers general check-ups, cardiology, pediatrics, orthopedics, dermatology, neurology, gynecology, physiotherapy, telemedicine video visits and laboratory diagnostics. Which service are you interested in?"
+    },
+    {
+      "id": "specialties",
+      "question": "Which doctor specialties are available?",
+      "keywords": ["specialty", "specialties", "specialist", "department", "doctor", "doctors", "physician", "which doctor"],
+      "answer": "Our doctors cover Cardiology, Dermatology, Pediatrics, Orthopedics, Neurology, General Medicine, Gynecology and Physiotherapy. Visit the Find a Doctor page to search and filter the full directory."
+    },
+    {
+      "id": "booking",
+      "question": "How do I book an appointment?",
+      "keywords": ["book", "booking", "appointment", "schedule", "reserv", "slot", "how do i book", "make an appointment"],
+      "answer": "Booking takes about a minute: open the Book Appointment page, choose a doctor, pick an open date and time slot, enter your name and email, then confirm. You will receive a confirmation reference number on screen. Would you like me to explain any step in more detail?"
+    },
+    {
+      "id": "hours",
+      "question": "What are your opening hours?",
+      "keywords": ["hour", "hours", "open", "opening", "time", "timing", "close", "closed", "weekend", "sunday"],
+      "answer": "We are open Monday to Friday 8:00 AM - 7:00 PM, Saturday 9:00 AM - 3:00 PM, and closed on Sunday. Bookings can only be made for days when the clinic is open."
+    },
+    {
+      "id": "location",
+      "question": "Where is the clinic located?",
+      "keywords": ["location", "located", "address", "where", "direction", "map", "reach you", "parking"],
+      "answer": "Our demo clinic is at 100 Wellness Avenue, Suite 200, Springfield. You can reach us at +1 (555) 010-4200 or care@mediconnect-ai.demo."
+    },
+    {
+      "id": "payment",
+      "question": "What are the fees and payment options?",
+      "keywords": ["fee", "fees", "cost", "price", "pay", "payment", "insurance", "card", "cash", "expensive", "afford"],
+      "answer": "Consultation fees are shown on each doctor's profile (sample values between $45 and $95 in this demo). We accept card, cash and most major insurance plans. Please confirm coverage with your insurer before your visit."
+    },
+    {
+      "id": "telemedicine",
+      "question": "Do you offer online or video consultations?",
+      "keywords": ["telemedicine", "telehealth", "video", "online", "remote", "virtual", "home visit"],
+      "answer": "Yes - several of our doctors offer telemedicine video consultations. Select the Online Consultation option when you book, and a secure link is shown on your confirmation screen after booking."
+    },
+    {
+      "id": "cancel",
+      "question": "How do I cancel or reschedule?",
+      "keywords": ["cancel", "reschedule", "change my", "postpone", "move my", "refund"],
+      "answer": "Call +1 (555) 010-4200 or email care@mediconnect-ai.demo at least 4 hours before your slot and we will move or cancel it. In this demo, bookings are stored locally, so you can also simply book a new slot."
+    },
+    {
+      "id": "find-doctor",
+      "question": "How do I find the right doctor?",
+      "keywords": ["find", "search", "choose", "select", "best", "recommend", "near me", "who should i see"],
+      "answer": "Use the Find a Doctor page: search by name or keyword, filter by specialty, and sort by rating or experience. Each profile shows experience, languages, availability and a short bio - clearly marked as demo data."
+    },
+    {
+      "id": "ai-limits",
+      "question": "Can you diagnose my condition or give me medicine?",
+      "keywords": ["diagnose", "diagnosis", "medicine", "medication", "prescribe", "prescription", "dosage", "dose", "am i sick", "what do i have", "symptom", "symptoms", "pill", "antibiotic"],
+      "answer": "No. I can only share general health information and clinic information - I cannot diagnose a condition, recommend medicine or replace a doctor. Please book an appointment with one of our physicians for personal medical advice."
+    },
+    {
+      "id": "emergency",
+      "question": "Is this an emergency - what should I do?",
+      "keywords": ["emergency", "urgent", "911", "ambulance", "chest pain", "bleeding heavily", "unconscious", "stroke"],
+      "answer": "If this is a medical emergency, call your local emergency number right away (911 in the United States) or go to the nearest emergency department. Do not wait for a chat reply."
+    },
+    {
+      "id": "privacy",
+      "question": "How is my data handled?",
+      "keywords": ["privacy", "data", "secure", "security", "gdpr", "hipaa", "confidential", "record", "storage", "delete my"],
+      "answer": "This demo stores booking details only in your browser (localStorage) unless you connect your own Supabase project, where they are saved in your private database. Never enter real medical history - the form only asks for a name, email and slot."
+    },
+    {
+      "id": "first-visit",
+      "question": "What should I bring to my first visit?",
+      "keywords": ["first visit", "first time", "bring", "prepare", "checklist", "documents", "id", "report", "previous"],
+      "answer": "Bring a photo ID, your insurance card, a list of current medicines and any recent test reports. Arrive 10 minutes early so reception can complete your registration."
+    },
+    {
+      "id": "lab",
+      "question": "Do you provide lab tests and reports?",
+      "keywords": ["lab", "laboratory", "test", "tests", "blood", "scan", "x-ray", "report", "diagnostic"],
+      "answer": "Yes, our laboratory handles blood work, X-rays and basic imaging. Your doctor shares results through the patient portal, usually within 24-48 hours (sample turnaround for this demo)."
+    },
+    {
+      "id": "wait-time",
+      "question": "How long will I have to wait?",
+      "keywords": ["wait", "waiting", "long", "queue", "delay", "busy", "time slot"],
+      "answer": "Appointments are scheduled every 30 minutes, so waiting times are usually short. Mornings are typically quieter than late afternoons if you prefer a faster visit."
+    }
+  ]
+}
